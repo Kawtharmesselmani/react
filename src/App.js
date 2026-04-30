@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { CartProvider } from './components/CartContext'
+import Home from "./pages/Home.js";
+import Menu from "./pages/Menu.js";
+import Cart from "./pages/Cart.js";
+import './App.css'
+
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Checkout from './pages/Checkout.js';
+import Confirm from './pages/Confirm.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <CartProvider>
+      <Router>
+        <div className="app"> {/* This div has the 'app' class */}
+          <Navbar/>
+          <main className="main-content"> {/* This main has the 'main-content' class */}
+            <Routes>
+              <Route path='/' Component={Home}/>
+              <Route path='/menu' Component={Menu}/>
+              <Route path='/cart' Component={Cart}/>
+              <Route path='/checkout' Component={Checkout}/>
+              <Route path='/confirmation' Component={Confirm}/>
+            </Routes>
+          </main>
+          <Footer/>
+        </div>
+      </Router>
+    </CartProvider>
+  )
 }
 
 export default App;
