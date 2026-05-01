@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Kawtharmesselmani/react/static/css/main.4fb32115.css",
-    "main.js": "/Kawtharmesselmani/react/static/js/main.0c58db46.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Kawtharmesselmani/react/static/js/787.28cb0dcd.chunk.js",
-    "static/media/salad.jpg": "/Kawtharmesselmani/react/static/media/salad.7e3b0394314033f4e581.jpg",
-    "static/media/cake.jpg": "/Kawtharmesselmani/react/static/media/cake.96b98dcd23bccc9ebf80.jpg",
-    "static/media/pizza.jpg": "/Kawtharmesselmani/react/static/media/pizza.3caf62e00bcf1e1c5a8e.jpg",
-    "static/media/pepp.jpg": "/Kawtharmesselmani/react/static/media/pepp.7cad4131e9a0e8482d3b.jpg",
-    "index.html": "/Kawtharmesselmani/react/index.html",
-    "main.4fb32115.css.map": "/Kawtharmesselmani/react/static/css/main.4fb32115.css.map",
-    "main.0c58db46.js.map": "/Kawtharmesselmani/react/static/js/main.0c58db46.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Kawtharmesselmani/react/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/react/static/css/main.4fb32115.css",
+    "main.js": "/react/static/js/main.b4c45909.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react/static/js/787.28cb0dcd.chunk.js",
+    "static/media/salad.jpg": "/react/static/media/salad.7e3b0394314033f4e581.jpg",
+    "static/media/cake.jpg": "/react/static/media/cake.96b98dcd23bccc9ebf80.jpg",
+    "static/media/pizza.jpg": "/react/static/media/pizza.3caf62e00bcf1e1c5a8e.jpg",
+    "static/media/pepp.jpg": "/react/static/media/pepp.7cad4131e9a0e8482d3b.jpg",
+    "index.html": "/react/index.html",
+    "main.4fb32115.css.map": "/react/static/css/main.4fb32115.css.map",
+    "main.b4c45909.js.map": "/react/static/js/main.b4c45909.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fb32115.css",
-    "static/js/main.0c58db46.js"
+    "static/js/main.b4c45909.js"
   ]
 }
