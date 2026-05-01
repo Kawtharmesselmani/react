@@ -26,7 +26,15 @@ export default function Home() {
             price: 5.99,
             image: cakeImage,
             description: "Rich chocolate cake with frosting"
+        },
+         {
+            id: 4,
+            name: "Chocolatee Cake", 
+            price: 7,
+            image: cakeImage,
+            description: "Rich chocolate cake with frosting"
         }
+    
     ];
 
     return (
@@ -65,7 +73,7 @@ export default function Home() {
                 <div className="container">
                     <h2>About Us</h2>
                     <p>
-                        At TasteBite, we're passionate about creating flavorful dishes using 
+                        kawthar Messelmani At TasteBite, we're passionate about creating flavorful dishes using 
                         fresh ingredients. Whether you're craving pizza, pasta, or dessert, 
                         we make it with love and serve it fast.
                     </p>
